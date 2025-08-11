@@ -1,0 +1,306 @@
+[
+    {
+        "id": "card_00001",
+        "group": "Kep1er",
+        "name": "CHAEHYUN",
+        "date": "それスノ",
+        "rarity": "superrare",
+        "storagePath": "images/kep1er/CHAEHYUN.jpg"
+    },
+    {
+        "id": "card_00002",
+        "group": "Kep1er",
+        "name": "YUJIN",
+        "date": "それスノ",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/YUJIN.jpg"
+    },
+    {
+        "id": "card_000003",
+        "group": "Kep1er",
+        "name": "XIAOTING",
+        "date": "それスノ",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/XIAOTING.jpg"
+    },
+    {
+        "id": "card_00004",
+        "group": "Kep1er",
+        "name": "DAYEON",
+        "date": "それスノ",
+        "rarity": "rare",
+        "storagePath": "images/kep1er/DAYEON.jpg"
+    },
+    {
+        "id": "card_00005",
+        "group": "Kep1er",
+        "name": "HIKARU",
+        "date": "それスノ",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/HIKARU.jpg"
+    },
+    {
+        "id": "card_00006",
+        "group": "Kep1er",
+        "name": "HUENING BAHIYYIH",
+        "date": "それスノ",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/HUENING BAHIYYIH.jpg"
+    },
+    {
+        "id": "card_00007",
+        "group": "Kep1er",
+        "name": "YOUNGEUN",
+        "date": "それスノ",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/YOUNGEUN.jpg"
+    },
+    {
+        "id": "card_000010",
+        "group": "Kep1er",
+        "name": "YUJIN",
+        "date": "waterbomb",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250604YUJIN.jpg"
+    },
+    {
+        "id": "card_000011",
+        "group": "Kep1er",
+        "name": "XIAOTING",
+        "date": "waterbomb",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250604XIAOTING.jpg"
+    },
+    {
+        "id": "card_000012",
+        "group": "Kep1er",
+        "name": "CHAEHYUN",
+        "date": "waterbomb",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250604CHAEHYUN.jpg"
+    },
+    {
+        "id": "card_000013",
+        "group": "Kep1er",
+        "name": "DAYEON",
+        "date": "waterbomb",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250604DAYEON.jpg"
+    },
+    {
+        "id": "card_000014",
+        "group": "Kep1er",
+        "name": "HIKARU",
+        "date": "waterbomb",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250604HIKARU.jpg"
+    },
+    {
+        "id": "card_000015",
+        "group": "Kep1er",
+        "name": "HUENING BAHIYYIH",
+        "date": "waterbomb",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250604HUENING BAHIYYIH.jpg"
+    },
+    {
+        "id": "card_000016",
+        "group": "Kep1er",
+        "name": "YOUNGEUN",
+        "date": "waterbomb",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250604YOUNGEUN.jpg"
+    },
+    {
+        "id": "card_000017",
+        "group": "Kep1er",
+        "name": "YUJIN",
+        "date": "School Festival",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250527YUJIN.jpg"
+    },
+    {
+        "id": "card_000018",
+        "group": "Kep1er",
+        "name": "XIAOTING",
+        "date": "School Festival",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250527XIAOTING.jpg"
+    },
+    {
+        "id": "card_000019",
+        "group": "Kep1er",
+        "name": "CHAEHYUN",
+        "date": "School Festival",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250527CHAEHYUN.jpg"
+    },
+    {
+        "id": "card_000020",
+        "group": "Kep1er",
+        "name": "DAYEON",
+        "date": "School Festival",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250527DAYEON.jpg"
+    },
+    {
+        "id": "card_000021",
+        "group": "Kep1er",
+        "name": "HIKARU",
+        "date": "School Festival",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250527HIKARU.jpg"
+    },
+    {
+        "id": "card_000022",
+        "group": "Kep1er",
+        "name": "HUENING BAHIYYIH",
+        "date": "School Festival",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250527HUENING BAHIYYIH.jpg"
+    },
+    {
+        "id": "card_000023",
+        "group": "Kep1er",
+        "name": "YOUNGEUN",
+        "date": "School Festival",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250527YOUNGEUN.jpg"
+    },
+    {
+        "id": "card_000024",
+        "group": "Kep1er",
+        "name": "YUJIN",
+        "date": "tipitap",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20241028YUJIN.jpg"
+    },
+    {
+        "id": "card_000025",
+        "group": "Kep1er",
+        "name": "XIAOTING",
+        "date": "tipitap",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20241028XIAOTING.jpg"
+    },
+    {
+        "id": "card_000026",
+        "group": "Kep1er",
+        "name": "CHAEHYUN",
+        "date": "tipitap",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20241028CHAEHYUN.jpg"
+    },
+    {
+        "id": "card_000027",
+        "group": "Kep1er",
+        "name": "DAYEON",
+        "date": "tipitap",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20241028DAYEON.jpg"
+    },
+    {
+        "id": "card_000028",
+        "group": "Kep1er",
+        "name": "HIKARU",
+        "date": "tipitap",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20241028HIKARU.jpg"
+    },
+    {
+        "id": "card_000029",
+        "group": "Kep1er",
+        "name": "HUENING BAHIYYIH",
+        "date": "tipitap",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20241028HUENING BAHIYYIH.jpg"
+    },
+    {
+        "id": "card_000030",
+        "group": "Kep1er",
+        "name": "YOUNGEUN",
+        "date": "tipitap",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20241028YOUNGEUN.jpg"
+    },
+    {
+        "id": "card_010001",
+        "group": "TOMORROW X TOGETHER",
+        "name": "SOOBIN",
+        "date": "ACT_PROMISE",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250317ACTSOOBIN.jpg"
+    },
+    {
+        "id": "card_010002",
+        "group": "TOMORROW X TOGETHER",
+        "name": "YEONJUN",
+        "date": "ACT_PROMISE",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250317ACTYEONJUN.jpg"
+    },
+    {
+        "id": "card_010003",
+        "group": "TOMORROW X TOGETHER",
+        "name": "BEOMGYU",
+        "date": "ACT_PROMISE",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250317ACTBEOMGYU.jpg"
+    },
+    {
+        "id": "card_010004",
+        "group": "TOMORROW X TOGETHER",
+        "name": "TAEHYUN",
+        "date": "ACT_PROMISE",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250317ACTTAEHYUN.jpg"
+    },
+    {
+        "id": "card_010005",
+        "group": "TOMORROW X TOGETHER",
+        "name": "HUENINGKAI",
+        "date": "ACT_PROMISE",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250317ACTHUENINGKAI.jpg"
+    },
+    {
+        "id": "card_010006",
+        "group": "TOMORROW X TOGETHER",
+        "name": "SOOBIN",
+        "date": "ACT_PROMISE",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250317PROMISESOOBIN.jpg"
+    },
+    {
+        "id": "card_010007",
+        "group": "TOMORROW X TOGETHER",
+        "name": "YEONJUN",
+        "date": "ACT_PROMISE",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250317PROMISETAEHYUN.jpg"
+    },
+    {
+        "id": "card_010008",
+        "group": "TOMORROW X TOGETHER",
+        "name": "BEOMGYU",
+        "date": "ACT_PROMISE",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250317PROMISEBEOMGYU.jpg"
+    },
+    {
+        "id": "card_010009",
+        "group": "TOMORROW X TOGETHER",
+        "name": "TAEHYUN",
+        "date": "ACT_PROMISE",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250317PROMISETAEHYUN.jpg"
+    },
+    {
+        "id": "card_010010",
+        "group": "TOMORROW X TOGETHER",
+        "name": "HUENINGKAI",
+        "date": "ACT_PROMISE",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250317PROMISEHUENINGKAI.jpg"
+    }
+]
