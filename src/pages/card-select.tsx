@@ -15,7 +15,7 @@ export default function CardSelect() {
   const router = useRouter();
   const { artist } = router.query;
 
-  if (!artist) return <div>アーティストを指定してください</div>;
+  //if (!artist) return <div>アーティストを指定してください</div>;
 
   // packsの生成: 同じパック画像を複数配置
   const packs = Array.from({ length: 12 }, (_, i) => ({
