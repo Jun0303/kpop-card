@@ -82,14 +82,6 @@ export default function CardSelect() {
               style={{ ["--index" as any]: index }}
               onClick={handleSelect}
             >
-
-              <div className={`${styles.face} ${styles.front}`}>
-                <img
-                  src={card.img}
-                  alt={`${artist} Pack`}
-                  className={styles.cardImage}
-                />
-              </div>
               <div className={`${styles.face} ${styles.front}`}>
                 <img
                   src={card.img}
