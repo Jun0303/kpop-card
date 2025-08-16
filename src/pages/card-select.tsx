@@ -6,6 +6,7 @@ import styles from "@/styles/CardSelect.module.css";
 const packImages: Record<string, string> = {
   Kep1er: "/images/pack/kep1er-pack.png",
   txt: "/images/pack/txt-pack.png",
+  aespa: "/images/pack/aespa-pack.png",
   // 他のアーティストもここに追加可能
 };
 

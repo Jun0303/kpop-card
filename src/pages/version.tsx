@@ -42,6 +42,20 @@ export default function VersionPage() {
         <br />
         4.1パックあたり3枚引き
       </p>
+      <br />
+      <br />
+      <h2 className="text-3xl">Ver2.1</h2>
+      <br />
+      <p>2025/08/17</p>
+      <br />
+      <p>
+        Kepler40枚、txt33枚、aespa20枚に更新。
+        <br />
+        <br />
+        1.「aespa」の追加
+        <br />
+        2.「Kep1er」の画像追加
+      </p>
     </div>
   );
 }

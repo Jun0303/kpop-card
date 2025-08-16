@@ -224,6 +224,102 @@
         "storagePath": "images/kep1er/20241028YOUNGEUN.jpg"
     },
     {
+        "id": "card_000031",
+        "group": "Kep1er",
+        "name": "YUJIN",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811YUJIN1.jpg"
+    },
+    {
+        "id": "card_000032",
+        "group": "Kep1er",
+        "name": "YUJIN",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811YUJIN2.jpg"
+    },
+    {
+        "id": "card_000033",
+        "group": "Kep1er",
+        "name": "XIAOTING",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811XIAOTING1.jpg"
+    },
+    {
+        "id": "card_000034",
+        "group": "Kep1er",
+        "name": "XIAOTING",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811XIAOTING2.jpg"
+    },
+    {
+        "id": "card_000035",
+        "group": "Kep1er",
+        "name": "CHAEHYUN",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811CHAEHYUN1.jpg"
+    },
+    {
+        "id": "card_000036",
+        "group": "Kep1er",
+        "name": "CHAEHYUN",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811CHAEHYUN2.jpg"
+    },
+    {
+        "id": "card_000037",
+        "group": "Kep1er",
+        "name": "DAYEON",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811DAYEON1.jpg"
+    },
+    {
+        "id": "card_000038",
+        "group": "Kep1er",
+        "name": "DAYEON",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811DAYEON2.jpg"
+    },
+    {
+        "id": "card_000039",
+        "group": "Kep1er",
+        "name": "HIKARU",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811HIKARU1.jpg"
+    },
+    {
+        "id": "card_000040",
+        "group": "Kep1er",
+        "name": "HIKARU",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811HIKARU2.jpg"
+    },
+    {
+        "id": "card_000041",
+        "group": "Kep1er",
+        "name": "HUENING BAHIYYIH",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811HUENING BAHIYYIH1.jpg"
+    },
+    {
+        "id": "card_000042",
+        "group": "Kep1er",
+        "name": "HUENING BAHIYYIH",
+        "date": "BubbleGum",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20250811HUENING BAHIYYIH2.jpg"
+    },
+    {
         "id": "card_010001",
         "group": "txt",
         "name": "SOOBIN",
@@ -486,5 +582,165 @@
         "date": "20250817",
         "rarity": "superrare",
         "storagePath": "images/txt/20250817HUENINGKAI.jpg"
+    },
+    {
+        "id": "card_020001",
+        "group": "aespa",
+        "name": "KARINA",
+        "date": "DirtyWork",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250623KARINA.jpg"
+    },
+    {
+        "id": "card_020002",
+        "group": "aespa",
+        "name": "WINTER",
+        "date": "DirtyWork",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250623WINTER.jpg"
+    },
+    {
+        "id": "card_020003",
+        "group": "aespa",
+        "name": "GISELLE",
+        "date": "DirtyWork",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250623GISELLE.jpg"
+    },
+    {
+        "id": "card_020004",
+        "group": "aespa",
+        "name": "NINGNING",
+        "date": "DirtyWork",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250623NINGNING.jpg"
+    },
+    {
+        "id": "card_020005",
+        "group": "aespa",
+        "name": "KARINA",
+        "date": "DirtyWork",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250709KARINA.jpg"
+    },
+    {
+        "id": "card_020006",
+        "group": "aespa",
+        "name": "WINTER",
+        "date": "DirtyWork",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250709WINTER.jpg"
+    },
+    {
+        "id": "card_020007",
+        "group": "aespa",
+        "name": "GISELLE",
+        "date": "DirtyWork",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250709GISELLE.jpg"
+    },
+    {
+        "id": "card_020008",
+        "group": "aespa",
+        "name": "NINGNING",
+        "date": "DirtyWork",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250709NINGNING.jpg"
+    },
+    {
+        "id": "card_020009",
+        "group": "aespa",
+        "name": "KARINA",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241021KARINA.jpg"
+    },
+    {
+        "id": "card_020010",
+        "group": "aespa",
+        "name": "WINTER",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241021WINTER.jpg"
+    },
+    {
+        "id": "card_020011",
+        "group": "aespa",
+        "name": "GISELLE",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241021GISELLE.jpg"
+    },
+    {
+        "id": "card_020012",
+        "group": "aespa",
+        "name": "NINGNING",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241021NINGNING.jpg"
+    },
+    {
+        "id": "card_020013",
+        "group": "aespa",
+        "name": "KARINA",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241017KARINA.jpg"
+    },
+    {
+        "id": "card_020014",
+        "group": "aespa",
+        "name": "WINTER",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241017WINTER.jpg"
+    },
+    {
+        "id": "card_020015",
+        "group": "aespa",
+        "name": "GISELLE",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241017GISELLE.jpg"
+    },
+    {
+        "id": "card_020016",
+        "group": "aespa",
+        "name": "NINGNING",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241017NINGNING.jpg"
+    },
+    {
+        "id": "card_020017",
+        "group": "aespa",
+        "name": "KARINA",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241016KARINA.jpg"
+    },
+    {
+        "id": "card_020018",
+        "group": "aespa",
+        "name": "WINTER",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241016WINTER.jpg"
+    },
+    {
+        "id": "card_020019",
+        "group": "aespa",
+        "name": "GISELLE",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241016GISELLE.jpg"
+    },
+    {
+        "id": "card_020020",
+        "group": "aespa",
+        "name": "NINGNING",
+        "date": "Whiplash",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20241016NINGNING.jpg"
     }
 ]

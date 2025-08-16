@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 const artists = [
   { name: "Kep1er", packImage: "/images/pack/kep1er-pack.png" },
   { name: "txt", packImage: "/images/pack/txt-pack.png" },
+  { name: "aespa", packImage: "/images/pack/aespa-pack.png" },
   // 他アーティストもここに追加可能
 ];
 
