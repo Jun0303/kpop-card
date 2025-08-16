@@ -31,8 +31,6 @@ export default function VersionPage() {
       <p>
         Kepler28枚、txt33枚に更新。
         <br />
-        画面構成:TOP/カード一覧/バージョン/遊び方
-        <br />
         <br />
         機能
         <br />

@@ -78,13 +78,18 @@ export default function CardSelect() {
         <ul
           className={styles.cardList}
           ref={cardListRef}
-          style={{ ["--card-count" as any]: packs.length }}
+          style={
+            { ["--card-count"]: packs.length } as React.CSSProperties
+          }
         >
+
           {packs.map((card, index) => (
             <li
               key={card.id}
               className={styles.sampleCard}
-              style={{ ["--index" as any]: index }}
+              style={
+                { ["--index"]: index } as React.CSSProperties
+              }
               onClick={handleSelect}
             >
 
