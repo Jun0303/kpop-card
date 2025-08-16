@@ -5,12 +5,7 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -23,4 +18,76 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.scrollable {
+  width: 100%;
+  height: 700px; /* 高さを少し増やす */
+  overflow: hidden; /* 縦スクロールは無効化 */
+}
+
+.cardList {
+  --base-deg: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transform-style: preserve-3d;
+  perspective: 1000px; /* 視点距離を長くして奥行きを見やすく */
+}
+
+.sampleCard {
+  --r: 450px;
+  --z-offset: 600px;
+  --rotate-deg: calc(360 / var(--card-count));
+
+  position: fixed;
+  top: 0;
+  left: calc(50% - 100px);
+  transform: translate(-50%, -50%); /* 中央寄せ */
+  list-style: none;
+  transform-style: preserve-3d;
+}
+
+.sampleCard .face {
+  position: absolute;
+  backface-visibility: hidden;
+  pointer-events: auto;
+  width: 200px; /* カード幅に合わせて調整 */
+  height: 280px; /* カード高さに合わせて調整 */
+  background-image: url("/images/pack/kep1er-pack.png");
+  background-size: cover;
+  background-position: center;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+
+.sampleCard .front {
+  rotate: 0 1 0
+    calc((var(--base-deg) + (var(--index) * var(--rotate-deg))) * 1deg);
+  translate: calc(
+      sin(calc((var(--base-deg) + (var(--index) * var(--rotate-deg))) * 1deg)) *
+        var(--r)
+    )
+    0
+    calc(
+      cos(calc((var(--base-deg) + (var(--index) * var(--rotate-deg))) * 1deg)) *
+        var(--r) - var(--z-offset)
+    );
+}
+
+.sampleCard .back {
+  rotate: 0 1 0
+    calc(((var(--base-deg) + (var(--index) * var(--rotate-deg)) + 180)) * 1deg);
+  translate: calc(
+      sin(calc((var(--base-deg) + (var(--index) * var(--rotate-deg))) * 1deg)) *
+        var(--r)
+    )
+    0
+    calc(
+      cos(calc((var(--base-deg) + (var(--index) * var(--rotate-deg))) * 1deg)) *
+        var(--r) - var(--z-offset)
+    );
 }

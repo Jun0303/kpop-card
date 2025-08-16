@@ -1,117 +1,73 @@
-// pages/result/[id].tsx
-"use client";
-
+// src/pages/result/[id].tsx
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import cardsDataRaw from "../../data/cards.json";
-import { getImageUrl } from "../../lib/storage";
-
-type Card = {
-  id: string;
-  group: string;
-  name: string;
-  date: string;
-  rarity: "normal" | "rare" | "superrare";
-  storagePath: string;
-  imageUrl?: string;
-};
+import { loadCards } from "@/lib/loadCards";
+import { Card } from "@/types";
 
 export default function ResultPage() {
   const router = useRouter();
-  const { id } = router.query;
+  const { id, packImage } = router.query; // id=アーティスト名, packImage=パック画像URL
 
-  const [card, setCard] = useState<Card | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [imageError, setImageError] = useState(false);
+  const [cards, setCards] = useState<Card[]>([]);
+  const [openedCards, setOpenedCards] = useState<Card[]>([]);
 
+  // 全カードをロード
   useEffect(() => {
-    if (!id || typeof id !== "string") return;
-
-    const foundCard = cardsDataRaw.find((c) => c.id === id);
-    if (!foundCard) {
-      setCard(null);
-      setLoading(false);
-      return;
-    }
-
-const fetchImage = async () => {
-  try {
-    const imageUrl = await getImageUrl(foundCard.storagePath);
-
-    setCard({
-      ...foundCard,
-      rarity: foundCard.rarity as "normal" | "rare" | "superrare", // 型を揃える
-      imageUrl,
+    if (!id) return;
+    loadCards().then((all) => {
+      const groupCards = all.filter((c) => c.group === id);
+      setCards(groupCards);
     });
-  } catch (error) {
-    console.error("画像取得失敗:", error);
-    setImageError(true);
-    setCard({
-      ...foundCard,
-      rarity: foundCard.rarity as "normal" | "rare" | "superrare",
-      imageUrl: undefined,
-    });
-  } finally {
-    setLoading(false);
-  }
-};
-
-
-    fetchImage();
   }, [id]);
 
-  if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-900 text-white">
-        カード情報を読み込み中...
-      </div>
-    );
-  }
+  // ランダムで3枚選ぶ
+  const openPack = () => {
+    if (cards.length < 3) return;
+    const shuffled = [...cards].sort(() => Math.random() - 0.5);
+    setOpenedCards(shuffled.slice(0, 3));
+  };
 
-  if (!card) {
-    return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
-        <p className="mb-6">該当するカードが見つかりませんでした。</p>
-        <button
-          onClick={() => router.push("/")}
-          className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg"
-        >
-          TOPへ戻る
-        </button>
-      </div>
-    );
-  }
+  // 「もう一度選ぶ」ボタン
+  const retry = () => {
+    //if (!id || !packImage) return;
+    router.push(`/card-select?artist=${id}&packImage=${encodeURIComponent(packImage as string)}`);
+  };
 
   return (
-    <div className="min-h-screen bg-gray-900 flex flex-col items-center p-8 text-white">
-      <h1 className="text-3xl font-bold mb-8">選択されたカード</h1>
+    <div className="flex flex-col items-center p-6">
+      <h1 className="text-2xl font-bold mb-4">{id} パック開封</h1>
 
-      <div className="bg-gray-800 rounded-lg p-6 shadow-lg max-w-md w-full">
-        <img
-          src={card.imageUrl || "/cardError.png"}
-          alt={`${card.group} - ${card.name}`}
-          className="w-full rounded-lg mb-6"
-        />
-
-        <p className="text-xl font-semibold mb-2">{card.name}</p>
-        <p className="text-gray-400 mb-2">{card.group}</p>
-        <p className="text-gray-400 mb-2">date: {card.date}</p>
-        <p className="text-gray-400 mb-6">
-          レアリティ:{" "}
-          {card.rarity === "normal"
-            ? "ノーマル"
-            : card.rarity === "rare"
-            ? "レア"
-            : "スーパーレア"}
-        </p>
-
-        <button
-          onClick={() => router.push("/")}
-          className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg"
-        >
-          TOPへ戻る
-        </button>
-      </div>
+      {openedCards.length === 0 ? (
+        <div className="space-x-4">
+          <button
+            onClick={retry}
+            className="px-4 py-2 bg-red-400 rounded"
+          >
+            もう一度選ぶ
+          </button>
+          <button
+            onClick={openPack}
+            className="px-4 py-2 bg-blue-500 text-white rounded"
+          >
+            開封
+          </button>
+        </div>
+      ) : (
+        <div className="grid grid-cols-3 gap-4">
+          {openedCards.map((card) => (
+            <div key={card.id} className="border p-2 rounded shadow">
+              <img src={card.imageUrl} alt={card.name} className="w-40 h-auto" />
+              <p className="mt-2 text-center font-semibold">{card.name}</p>
+            </div>
+          ))}
+          <button
+            className="mt-4 px-4 py-2 bg-blue-500 rounded"
+            onClick={() => router.push("/#")}
+          >
+            TOP
+          </button>
+        </div>
+      )}
     </div>
   );
 }

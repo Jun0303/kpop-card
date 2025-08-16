@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
     "firebase": "^12.1.0",
     "framer-motion": "^12.23.12",
     "next": "15.4.6",

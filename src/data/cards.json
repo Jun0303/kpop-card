@@ -225,7 +225,7 @@
     },
     {
         "id": "card_010001",
-        "group": "TOMORROW X TOGETHER",
+        "group": "txt",
         "name": "SOOBIN",
         "date": "ACT_PROMISE",
         "rarity": "normal",
@@ -233,7 +233,7 @@
     },
     {
         "id": "card_010002",
-        "group": "TOMORROW X TOGETHER",
+        "group": "txt",
         "name": "YEONJUN",
         "date": "ACT_PROMISE",
         "rarity": "normal",
@@ -241,7 +241,7 @@
     },
     {
         "id": "card_010003",
-        "group": "TOMORROW X TOGETHER",
+        "group": "txt",
         "name": "BEOMGYU",
         "date": "ACT_PROMISE",
         "rarity": "normal",
@@ -249,7 +249,7 @@
     },
     {
         "id": "card_010004",
-        "group": "TOMORROW X TOGETHER",
+        "group": "txt",
         "name": "TAEHYUN",
         "date": "ACT_PROMISE",
         "rarity": "normal",
@@ -257,7 +257,7 @@
     },
     {
         "id": "card_010005",
-        "group": "TOMORROW X TOGETHER",
+        "group": "txt",
         "name": "HUENINGKAI",
         "date": "ACT_PROMISE",
         "rarity": "normal",
@@ -265,7 +265,7 @@
     },
     {
         "id": "card_010006",
-        "group": "TOMORROW X TOGETHER",
+        "group": "txt",
         "name": "SOOBIN",
         "date": "ACT_PROMISE",
         "rarity": "normal",
@@ -273,7 +273,7 @@
     },
     {
         "id": "card_010007",
-        "group": "TOMORROW X TOGETHER",
+        "group": "txt",
         "name": "YEONJUN",
         "date": "ACT_PROMISE",
         "rarity": "normal",
@@ -281,7 +281,7 @@
     },
     {
         "id": "card_010008",
-        "group": "TOMORROW X TOGETHER",
+        "group": "txt",
         "name": "BEOMGYU",
         "date": "ACT_PROMISE",
         "rarity": "normal",
@@ -289,7 +289,7 @@
     },
     {
         "id": "card_010009",
-        "group": "TOMORROW X TOGETHER",
+        "group": "txt",
         "name": "TAEHYUN",
         "date": "ACT_PROMISE",
         "rarity": "normal",
@@ -297,10 +297,194 @@
     },
     {
         "id": "card_010010",
-        "group": "TOMORROW X TOGETHER",
+        "group": "txt",
         "name": "HUENINGKAI",
         "date": "ACT_PROMISE",
         "rarity": "normal",
         "storagePath": "images/txt/20250317PROMISEHUENINGKAI.jpg"
+    },
+    {
+        "id": "card_010011",
+        "group": "txt",
+        "name": "SOOBIN",
+        "date": "ANGEL",
+        "rarity": "rare",
+        "storagePath": "images/txt/20241024ANGELSOOBIN.jpg"
+    },
+    {
+        "id": "card_010012",
+        "group": "txt",
+        "name": "YEONJUN",
+        "date": "ANGEL",
+        "rarity": "rare",
+        "storagePath": "images/txt/20241024ANGELYEONJUN.jpg"
+    },
+    {
+        "id": "card_010013",
+        "group": "txt",
+        "name": "BEOMGYU",
+        "date": "ANGEL",
+        "rarity": "rare",
+        "storagePath": "images/txt/20241024ANGELBEOMGYU.jpg"
+    },
+    {
+        "id": "card_010014",
+        "group": "txt",
+        "name": "TAEHYUN",
+        "date": "ANGEL",
+        "rarity": "rare",
+        "storagePath": "images/txt/20241024ANGELTAEHYUN.jpg"
+    },
+    {
+        "id": "card_010015",
+        "group": "txt",
+        "name": "HUENINGKAI",
+        "date": "ANGEL",
+        "rarity": "rare",
+        "storagePath": "images/txt/20241024ANGELHUENINGKAI.jpg"
+    },
+    {
+        "id": "card_010016",
+        "group": "txt",
+        "name": "SOOBIN",
+        "date": "KNIGHT",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241025KNIGHTSOOBIN.jpg"
+    },
+    {
+        "id": "card_010017",
+        "group": "txt",
+        "name": "YEONJUN",
+        "date": "KNIGHT",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241025KNIGHTYEONJUN.jpg"
+    },
+    {
+        "id": "card_010018",
+        "group": "txt",
+        "name": "BEOMGYU",
+        "date": "KNIGHT",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241025KNIGHTBEOMGYU.jpg"
+    },
+    {
+        "id": "card_010019",
+        "group": "txt",
+        "name": "TAEHYUN",
+        "date": "KNIGHT",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241025KNIGHTTAEHYUN.jpg"
+    },
+    {
+        "id": "card_010020",
+        "group": "txt",
+        "name": "HUENINGKAI",
+        "date": "KNIGHT",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241025KNIGHTHUENINGKAI.jpg"
+    },
+    {
+        "id": "card_010021",
+        "group": "txt",
+        "name": "SOOBIN",
+        "date": "SAVIOR",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241029SAVIORSOOBIN.jpg"
+    },
+    {
+        "id": "card_010022",
+        "group": "txt",
+        "name": "YEONJUN",
+        "date": "SAVIOR",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241029SAVIORYEONJUN.jpg"
+    },
+    {
+        "id": "card_010023",
+        "group": "txt",
+        "name": "BEOMGYU",
+        "date": "SAVIOR",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241029SAVIORBEOMGYU.jpg"
+    },
+    {
+        "id": "card_010024",
+        "group": "txt",
+        "name": "TAEHYUN",
+        "date": "SAVIOR",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241029SAVIORTAEHYUN.jpg"
+    },
+    {
+        "id": "card_010025",
+        "group": "txt",
+        "name": "HUENINGKAI",
+        "date": "SAVIOR",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241029SAVIORHUENINGKAI.jpg"
+    },
+    {
+        "id": "card_010026",
+        "group": "txt",
+        "name": "SOOBIN",
+        "date": "LOVER",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241030LOVERSOOBIN.jpg"
+    },
+    {
+        "id": "card_010027",
+        "group": "txt",
+        "name": "YEONJUN",
+        "date": "LOVER",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241030LOVERYEONJUN.jpg"
+    },
+    {
+        "id": "card_010028",
+        "group": "txt",
+        "name": "BEOMGYU",
+        "date": "LOVER",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241030LOVERBEOMGYU.jpg"
+    },
+    {
+        "id": "card_010029",
+        "group": "txt",
+        "name": "TAEHYUN",
+        "date": "LOVER",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241030LOVERTAEHYUN.jpg"
+    },
+    {
+        "id": "card_010030",
+        "group": "txt",
+        "name": "HUENINGKAI",
+        "date": "LOVER",
+        "rarity": "normal",
+        "storagePath": "images/txt/20241030LOVERHUENINGKAI.jpg"
+    },
+    {
+        "id": "card_010031",
+        "group": "txt",
+        "name": "SOOBIN",
+        "date": "20250814",
+        "rarity": "superrare",
+        "storagePath": "images/txt/20250814SOOBIN.jpg"
+    },
+    {
+        "id": "card_010032",
+        "group": "txt",
+        "name": "HUENINGKAI",
+        "date": "20250816",
+        "rarity": "superrare",
+        "storagePath": "images/txt/20250816HUENINGKAI.jpg"
+    },
+    {
+        "id": "card_010033",
+        "group": "txt",
+        "name": "HUENINGKAI",
+        "date": "20250817",
+        "rarity": "superrare",
+        "storagePath": "images/txt/20250817HUENINGKAI.jpg"
     }
 ]

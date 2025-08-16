@@ -1,116 +1,84 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import cardsDataRaw from "../data/cards.json";
-import { getImageUrl } from "../lib/storage";
 import { useRouter } from "next/router";
-import Modal from "./Model";
+import styles from "./CardGrid.module.css";
 
-type Card = {
+interface Card {
   id: string;
   group: string;
   name: string;
   date: string;
   rarity: "normal" | "rare" | "superrare";
   storagePath: string;
-  imageUrl?: string;
-};
+}
 
-type CardGridProps = {
-  group: string; // どのアーティストか
-};
-
-export default function CardGrid({ group }: CardGridProps) {
+export default function CardSelect({ group }: { group: string }) {
   const router = useRouter();
   const [cards, setCards] = useState<Card[]>([]);
-  const [flippedCardId, setFlippedCardId] = useState<string | null>(null);
-  const [selectedCard, setSelectedCard] = useState<Card | null>(null);
-  const [showModal, setShowModal] = useState(false);
+  const [isShuffling, setIsShuffling] = useState(true);
+  // 修正: ReturnType<typeof setInterval>を使用
+  const shuffleInterval = useRef<ReturnType<typeof setInterval> | null>(null);
 
-  // アーティストごとの裏面画像
-  const backImageMap: Record<string, string> = {
-    "Kep1er": "/images/back_kep1er.png",
-    "TOMORROW X TOGETHER": "/images/back_txt.png",
+  // シャッフル関数
+  const shuffleCards = (arr: Card[]) => {
+    const newArr = [...arr];
+    for (let i = newArr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [newArr[i], newArr[j]] = [newArr[j], newArr[i]];
+    }
+    return newArr;
   };
 
+  // 初期セット & シャッフル開始
   useEffect(() => {
-    const groupCards = cardsDataRaw
-      .filter((card) => card.group === group)
-      .map((card) => ({
-        ...card,
-        rarity: card.rarity as "normal" | "rare" | "superrare",
-      }));
+    const filtered = cardsDataRaw.filter((c) => c.group === group) as Card[];
+    setCards(filtered);
 
-    // シャッフル
-    const shuffled = [...groupCards].sort(() => Math.random() - 0.5);
-    setCards(shuffled);
+    shuffleInterval.current = setInterval(() => {
+      setCards((prev) => shuffleCards(prev));
+    }, 200);
+
+    return () => {
+      if (shuffleInterval.current) {
+        clearInterval(shuffleInterval.current);
+      }
+    };
   }, [group]);
 
-  const handleCardClick = async (card: Card) => {
-    if (flippedCardId || selectedCard) return; // 1枚だけ選択可能
-    setSelectedCard(card);
-    setShowModal(true);
+  const handleStop = () => {
+    setIsShuffling(false);
+    if (shuffleInterval.current) {
+      clearInterval(shuffleInterval.current);
+    }
   };
 
-  const handleConfirm = async () => {
-    if (!selectedCard) return;
-
-    try {
-      const imageUrl = await getImageUrl(selectedCard.storagePath);
-      const cardWithImage: Card = { ...selectedCard, imageUrl };
-      setFlippedCardId(selectedCard.id);
-      router.push(`/result/${selectedCard.id}`);
-    } catch (error) {
-      console.error("画像取得失敗:", error);
-    }
+  const handleCardClick = (card: Card) => {
+    if (isShuffling) return;
+    router.push(`/result/${card.id}`);
   };
 
   return (
     <div>
-      {/* レスポンシブグリッド: スマホ3列、デスクトップ5列 */}
-      <div className="grid grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6 p-4 lg:p-6">
+      <h1>{group} - カード選択</h1>
+      {isShuffling ? (
+        <button onClick={handleStop}>ストップ</button>
+      ) : (
+        <p>パックを選んでください</p>
+      )}
+      <div className={styles.grid}>
         {cards.map((card) => (
           <div
             key={card.id}
-            className={`relative w-full aspect-[3/4] cursor-pointer perspective`}
+            className={`${styles.card} ${isShuffling ? styles.shuffling : ""}`}
             onClick={() => handleCardClick(card)}
           >
-            <div
-              className={`relative w-full h-full transition-transform duration-500 transform ${
-                flippedCardId === card.id ? "rotate-y-180" : ""
-              }`}
-            >
-              {/* 裏面 */}
-              <div className="absolute w-full h-full backface-hidden">
-                <img
-                  src={backImageMap[group]} // アーティストごとに裏面画像変更
-                  alt="Card Back"
-                  className="w-full h-full object-cover rounded-lg shadow-lg"
-                />
-              </div>
-              {/* 表面 */}
-              <div className="absolute w-full h-full backface-hidden rotate-y-180">
-                {card.imageUrl && (
-                  <img
-                    src={card.imageUrl}
-                    alt={card.name}
-                    className="w-full h-full object-cover rounded-lg shadow-lg"
-                  />
-                )}
-              </div>
-            </div>
+            <img
+              src={`/back/${group}.png`} // アーティストごとの裏面画像
+              alt="パック裏面"
+            />
           </div>
         ))}
       </div>
-
-      {showModal && selectedCard && (
-        <Modal
-          title="このカードで間違いありませんか？"
-          onClose={() => {
-            setSelectedCard(null);
-            setShowModal(false);
-          }}
-          onConfirm={handleConfirm}
-        />
-      )}
     </div>
   );
 }

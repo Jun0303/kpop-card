@@ -1,0 +1,131 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.scrollable {
+  width: 100%;
+  height: 300px;
+  /*overflow-y: scroll;*/
+}
+
+.cardList {
+  --base-deg: 0;
+  --card-count: 12;
+  --card-width: 200px;
+  --card-height: 280px;
+  --radius: 450px;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sampleCard {
+  --rotate-deg: calc(360 / var(--card-count));
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-style: preserve-3d;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.face {
+  position: absolute;
+  backface-visibility: visible;
+  pointer-events: auto;
+  transform-origin: center center;
+}
+
+.front {
+  transform: 
+    translate(-50%, -50%)
+    rotateY(calc((var(--base-deg) + var(--index) * var(--rotate-deg)) * 1deg))
+    translateZ(var(--radius));
+}
+
+.back {
+  transform: 
+    translate(-50%, -50%)
+    rotateY(calc((var(--base-deg) + var(--index) * var(--rotate-deg) + 180) * 1deg))
+    translateZ(var(--radius));
+}
+
+.cardImage {
+  width: var(--card-width);
+  height: auto;
+  border-radius: 12px;
+  cursor: pointer;
+  display: block;
+  object-fit: cover;
+}
+
+
+.cardBack {
+  width: var(--card-width);
+  /*height: var(--card-height);*/
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* タブレット対応 (768px以下) */
+@media (max-width: 768px) {
+  .cardList {
+    --card-width: 150px;
+    --card-height: 210px;
+    --radius: 350px;
+    height: 400px;
+  }
+  
+  .scrollable {
+    height: 250px;
+  }
+}
+
+/* モバイル対応 (480px以下) */
+@media (max-width: 480px) {
+  .cardList {
+    --card-width: 120px;
+    --card-height: 168px;
+    --radius: 280px;
+    height: 300px;
+  }
+  
+  .scrollable {
+    height: 200px;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+}
+
+/* 小さなモバイル対応 (360px以下) */
+@media (max-width: 360px) {
+  .cardList {
+    --card-width: 100px;
+    --card-height: 140px;
+    --radius: 220px;
+    height: 250px;
+  }
+  
+  .scrollable {
+    height: 180px;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+}

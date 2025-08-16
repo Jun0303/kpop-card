@@ -1,26 +1,44 @@
-// pages/index.tsx
-import Link from "next/link";
+import { useRouter } from "next/router";
+
+const artists = [
+  { name: "Kep1er", packImage: "/images/pack/kep1er-pack.png" },
+  { name: "txt", packImage: "/images/pack/txt-pack.png" },
+  // 他アーティストもここに追加可能
+];
 
 export default function Home() {
-  return (
-    <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center p-8 text-white">
-      <h1 className="text-4xl font-bold mb-6">Random Trading Cards Game</h1>
-      <p className="max-w-2xl text-center mb-10 text-gray-300">
-        このゲームでは、推しのアーティストカードを選び、カードをめくって確認することができます。
-        下記のボタンからアーティストを選択してください。
-      </p>
+  const router = useRouter();
 
-      <div className="flex gap-6">
-        <Link href="/kep1er">
-          <button className="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg">
-            Kep1er
-          </button>
-        </Link>
-        <Link href="/txt">
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg">
-            TOMORROW X TOGETHER
-          </button>
-        </Link>
+  const handleSelectArtist = (artist: string, packImage: string) => {
+    router.push({
+      pathname: "/card-select",
+      query: { artist, packImage },
+    });
+  };
+
+  return (
+    <div className="flex flex-col items-center p-6 space-y-4">
+      <h1 className="text-3xl font-bold mb-4">RANDOM TRADING CARD GAME</h1>
+      <br/>
+      <h3 className="text-1xl mb-4">このゲームはK-POPにおけるランダムトレーディングカードを再現したものです！下記の中から好きなアーティストを選択し、推しを引いてください！！</h3>
+      <p>※1パックに3枚のトレカが入ってます</p>
+      <br/>
+      <h2 className="text-2xl font-bold mb-4">アーティストを選択</h2>
+      <div className="grid grid-cols-2 gap-4">
+        {artists.map((artist) => (
+          <div
+            key={artist.name}
+            className="cursor-pointer border rounded p-2 shadow hover:scale-105 transition-transform"
+            onClick={() => handleSelectArtist(artist.name, artist.packImage)}
+          >
+            <img
+              src={artist.packImage}
+              alt={artist.name}
+              className="w-40 h-auto mx-auto"
+            />
+            <p className="text-center mt-2 font-semibold">{artist.name}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
