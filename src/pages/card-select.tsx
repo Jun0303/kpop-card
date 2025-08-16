@@ -23,6 +23,11 @@ export default function CardSelect() {
     img: packImages[artist as string] || "/images/pack/default-pack.png",
   }));
 
+  interface LenisScrollEvent {
+    velocity: number;
+    [key: string]: unknown; // 他のプロパティも来るが未使用
+  }
+
   useEffect(() => {
     if (!scrollableRef.current || !cardListRef.current) return;
 
@@ -39,7 +44,7 @@ export default function CardSelect() {
     cardListRef.current.style.setProperty("--base-deg", `${baseDeg}`);
 
     const STRENGTH = 0.3;
-    const onScroll = (event: any) => {
+    const onScroll = (event: LenisScrollEvent) => {
       baseDeg -= event.velocity * STRENGTH;
       cardListRef.current!.style.setProperty("--base-deg", `${baseDeg}`);
     };
