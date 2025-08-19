@@ -4,9 +4,7 @@ export default function VersionPage() {
       <h1 className="text-4xl font-bold mb-4">Version</h1>
       <br />
       <h2 className="text-3xl">Ver1.0</h2>
-      <br />
       <p>2025/08/11</p>
-      <br />
       <p>
         Kepler28枚、txt10枚でリリース。
         <br />
@@ -25,9 +23,7 @@ export default function VersionPage() {
       </p>
       <br />
       <h2 className="text-3xl">Ver2.0</h2>
-      <br />
       <p>2025/08/16</p>
-      <br />
       <p>
         Kepler28枚、txt33枚に更新。
         <br />
@@ -45,9 +41,7 @@ export default function VersionPage() {
       <br />
       <br />
       <h2 className="text-3xl">Ver2.1</h2>
-      <br />
       <p>2025/08/17</p>
-      <br />
       <p>
         Kepler40枚、txt33枚、aespa20枚に更新。
         <br />
@@ -55,6 +49,19 @@ export default function VersionPage() {
         1.「aespa」の追加
         <br />
         2.「Kep1er」の画像追加
+      </p>
+      <br/>
+            <h2 className="text-3xl">Ver2.2</h2>
+      <p>2025/08/19</p>
+      <p>
+        Kepler58枚、txt33枚、aespa20枚に更新。
+        <br />
+        <br />
+        1.開封後のレイアウト変更
+        <br />
+        2.3Dにカードを配置
+        <br />
+        3.「Kep1er」の画像追加
       </p>
     </div>
   );

@@ -320,6 +320,150 @@
         "storagePath": "images/kep1er/20250811HUENING BAHIYYIH2.jpg"
     },
     {
+        "id": "card_000043",
+        "group": "Kep1er",
+        "name": "YUJIN",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528YUJIN1.jpg"
+    },
+    {
+        "id": "card_000044",
+        "group": "Kep1er",
+        "name": "YUJIN",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528YUJIN2.jpg"
+    },
+    {
+        "id": "card_000045",
+        "group": "Kep1er",
+        "name": "XIAOTING",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528XIAOTING1.jpg"
+    },
+    {
+        "id": "card_000046",
+        "group": "Kep1er",
+        "name": "XIAOTING",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528XIAOTING2.jpg"
+    },
+    {
+        "id": "card_000047",
+        "group": "Kep1er",
+        "name": "MASHIRO",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528MASHIRO1.jpg"
+    },
+    {
+        "id": "card_000048",
+        "group": "Kep1er",
+        "name": "MASHIRO",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528MASHIRO2.jpg"
+    },
+    {
+        "id": "card_000049",
+        "group": "Kep1er",
+        "name": "CHAEHYUN",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528CHAEHYUN1.jpg"
+    },
+    {
+        "id": "card_000050",
+        "group": "Kep1er",
+        "name": "CHAEHYUN",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528CHAEHYUN2.jpg"
+    },
+    {
+        "id": "card_000051",
+        "group": "Kep1er",
+        "name": "DAYEON",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528DAYEON1.jpg"
+    },
+    {
+        "id": "card_000052",
+        "group": "Kep1er",
+        "name": "DAYEON",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528DAYEON2.jpg"
+    },
+    {
+        "id": "card_000053",
+        "group": "Kep1er",
+        "name": "HIKARU",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528HIKARU1.jpg"
+    },
+    {
+        "id": "card_000054",
+        "group": "Kep1er",
+        "name": "HIKARU",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528HIKARU2.jpg"
+    },
+    {
+        "id": "card_000055",
+        "group": "Kep1er",
+        "name": "HUENING BAHIYYIH",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528HUENING BAHIYYIH1.jpg"
+    },
+    {
+        "id": "card_000056",
+        "group": "Kep1er",
+        "name": "HUENING BAHIYYIH",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528HUENING BAHIYYIH2.jpg"
+    },
+    {
+        "id": "card_000057",
+        "group": "Kep1er",
+        "name": "YOUNGEUN",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528YOUNGEUN1.jpg"
+    },
+    {
+        "id": "card_000058",
+        "group": "Kep1er",
+        "name": "YOUNGEUN",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528YOUNGEUN2.jpg"
+    },
+    {
+        "id": "card_000059",
+        "group": "Kep1er",
+        "name": "YESEO",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528YESEO1.jpg"
+    },
+    {
+        "id": "card_000060",
+        "group": "Kep1er",
+        "name": "YESEO",
+        "date": "ShootingStar",
+        "rarity": "normal",
+        "storagePath": "images/kep1er/20240528YESEO2.jpg"
+    },
+    {
         "id": "card_010001",
         "group": "txt",
         "name": "SOOBIN",
