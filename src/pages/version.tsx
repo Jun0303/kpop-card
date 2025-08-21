@@ -6,7 +6,7 @@ export default function VersionPage() {
       <h2 className="text-3xl">Ver1.0</h2>
       <p>2025/08/11</p>
       <p>
-        Kepler28枚、txt10枚でリリース。
+        Kep1er28枚、txt10枚でリリース。
         <br />
         画面構成:TOP/カード一覧/バージョン/遊び方
         <br />
@@ -25,7 +25,7 @@ export default function VersionPage() {
       <h2 className="text-3xl">Ver2.0</h2>
       <p>2025/08/16</p>
       <p>
-        Kepler28枚、txt33枚に更新。
+        Kep1er28枚、txt33枚に更新。
         <br />
         <br />
         機能
@@ -43,7 +43,7 @@ export default function VersionPage() {
       <h2 className="text-3xl">Ver2.1</h2>
       <p>2025/08/17</p>
       <p>
-        Kepler40枚、txt33枚、aespa20枚に更新。
+        Kep1er40枚、txt33枚、aespa20枚に更新。
         <br />
         <br />
         1.「aespa」の追加
@@ -54,7 +54,7 @@ export default function VersionPage() {
             <h2 className="text-3xl">Ver2.2</h2>
       <p>2025/08/19</p>
       <p>
-        Kepler58枚、txt33枚、aespa20枚に更新。
+        Kep1er58枚、txt33枚、aespa20枚に更新。
         <br />
         <br />
         1.開封後のレイアウト変更
@@ -62,6 +62,17 @@ export default function VersionPage() {
         2.3Dにカードを配置
         <br />
         3.「Kep1er」の画像追加
+      </p>
+            <br/>
+            <h2 className="text-3xl">Ver2.3</h2>
+      <p>2025/08/21</p>
+      <p>
+        Kep1er58枚、txt33枚、aespa20枚、IVE12枚に更新。
+        <br />
+        <br />
+        1.開封後のカードの大きさ変更
+        <br />
+        2.「IVE」のトレカ追加
       </p>
     </div>
   );

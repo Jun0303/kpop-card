@@ -4,6 +4,7 @@ const artists = [
   { name: "Kep1er", packImage: "/images/pack/kep1er-pack.png" },
   { name: "txt", packImage: "/images/pack/txt-pack.png" },
   { name: "aespa", packImage: "/images/pack/aespa-pack.png" },
+  { name: "IVE", packImage: "/images/pack/ive-pack.png" },
   // 他アーティストもここに追加可能
 ];
 

@@ -85,7 +85,7 @@ export default function ResultPage() {
       ) : (
         // 3D風に重ねる
         <div
-          className="relative w-60 h-80"
+          className="relative w-64 h-100"
           style={{ perspective: "1000px" }}
           onClick={handleCardClick}
         >
@@ -112,7 +112,7 @@ export default function ResultPage() {
                 <img
                   src={card.imageUrl}
                   alt={card.name}
-                  className="w-40 h-auto shadow-xl rounded cursor-pointer"
+                  className="w-64 h-auto shadow-xl rounded cursor-pointer"
                 />
               </div>
             );

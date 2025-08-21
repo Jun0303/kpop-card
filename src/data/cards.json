@@ -887,4 +887,103 @@
         "rarity": "normal",
         "storagePath": "images/aespa/20241016NINGNING.jpg"
     }
+
+
+    ,
+    {
+        "id": "card_030001",
+        "group": "IVE",
+        "name": "YUJIN",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816YUJIN1.jpg"
+    },
+    {
+        "id": "card_030002",
+        "group": "IVE",
+        "name": "GAEUL",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816GAEUL1.jpg"
+    },
+    {
+        "id": "card_030003",
+        "group": "IVE",
+        "name": "REI",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816REI1.jpg"
+    },
+    {
+        "id": "card_030004",
+        "group": "IVE",
+        "name": "WONYOUNG",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816WONYOUNG1.jpg"
+    },
+    {
+        "id": "card_030005",
+        "group": "IVE",
+        "name": "LIZ",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816LIZ1.jpg"
+    },
+    {
+        "id": "card_030006",
+        "group": "IVE",
+        "name": "LEESEO",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816LEESEO1.jpg"
+    },
+    {
+        "id": "card_030007",
+        "group": "IVE",
+        "name": "YUJIN",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816YUJIN2.jpg"
+    },
+    {
+        "id": "card_030008",
+        "group": "IVE",
+        "name": "GAEUL",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816GAEUL2.jpg"
+    },
+    {
+        "id": "card_030009",
+        "group": "IVE",
+        "name": "REI",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816REI2.jpg"
+    },
+    {
+        "id": "card_030010",
+        "group": "IVE",
+        "name": "WONYOUNG",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816WONYOUNG2.jpg"
+    },
+    {
+        "id": "card_030011",
+        "group": "IVE",
+        "name": "LIZ",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816LIZ2.jpg"
+    },
+    {
+        "id": "card_030012",
+        "group": "IVE",
+        "name": "LEESEO",
+        "date": "SECRET",
+        "rarity": "normal",
+        "storagePath": "images/ive/20250816LEESEO2.jpg"
+    }
 ]

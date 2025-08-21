@@ -7,6 +7,7 @@ const packImages: Record<string, string> = {
   Kep1er: "/images/pack/kep1er-pack.png",
   txt: "/images/pack/txt-pack.png",
   aespa: "/images/pack/aespa-pack.png",
+  IVE: "/images/pack/ive-pack.png",
   // 他のアーティストもここに追加可能
 };
 
