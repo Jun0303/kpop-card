@@ -728,6 +728,46 @@
         "storagePath": "images/txt/20250817HUENINGKAI.jpg"
     },
     {
+        "id": "card_010034",
+        "group": "txt",
+        "name": "SOOBIN",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250827SOOBIN.jpg"
+    },
+    {
+        "id": "card_010035",
+        "group": "txt",
+        "name": "YEONJUN",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250827YEONJUN.jpg"
+    },
+    {
+        "id": "card_010036",
+        "group": "txt",
+        "name": "BEOMGYU",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250827BEOMGYU.jpg"
+    },
+    {
+        "id": "card_010037",
+        "group": "txt",
+        "name": "TAEHYUN",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250827TAEHYUN.jpg"
+    },
+    {
+        "id": "card_010038",
+        "group": "txt",
+        "name": "HUENINGKAI",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250827HUENINGKAI.jpg"
+    },
+    {
         "id": "card_020001",
         "group": "aespa",
         "name": "KARINA",
@@ -886,10 +926,135 @@
         "date": "Whiplash",
         "rarity": "normal",
         "storagePath": "images/aespa/20241016NINGNING.jpg"
-    }
-
-
-    ,
+    },
+    {
+        "id": "card_020021",
+        "group": "aespa",
+        "name": "KARINA",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827KARINA (1).jpg"
+    },
+    {
+        "id": "card_020022",
+        "group": "aespa",
+        "name": "WINTER",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827WINTER (1).jpg"
+    },
+    {
+        "id": "card_020023",
+        "group": "aespa",
+        "name": "GISELLE",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827GISELLE (1).jpg"
+    },
+    {
+        "id": "card_020024",
+        "group": "aespa",
+        "name": "NINGNING",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827NINGNING (1).jpg"
+    },
+    {
+        "id": "card_020025",
+        "group": "aespa",
+        "name": "KARINA",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827KARINA (2).jpg"
+    },
+    {
+        "id": "card_020026",
+        "group": "aespa",
+        "name": "WINTER",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827WINTER (2).jpg"
+    },
+    {
+        "id": "card_020027",
+        "group": "aespa",
+        "name": "GISELLE",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827GISELLE (2).jpg"
+    },
+    {
+        "id": "card_020028",
+        "group": "aespa",
+        "name": "NINGNING",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827NINGNING (2).jpg"
+    },
+    {
+        "id": "card_020029",
+        "group": "aespa",
+        "name": "KARINA",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827KARINA (3).jpg"
+    },
+    {
+        "id": "card_020030",
+        "group": "aespa",
+        "name": "WINTER",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827WINTER (3).jpg"
+    },
+    {
+        "id": "card_020031",
+        "group": "aespa",
+        "name": "GISELLE",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827GISELLE (3).jpg"
+    },
+    {
+        "id": "card_020032",
+        "group": "aespa",
+        "name": "NINGNING",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827NINGNING (3).jpg"
+    },
+    {
+        "id": "card_020033",
+        "group": "aespa",
+        "name": "KARINA",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827KARINA (4).jpg"
+    },
+    {
+        "id": "card_020034",
+        "group": "aespa",
+        "name": "WINTER",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827WINTER (4).jpg"
+    },
+    {
+        "id": "card_020035",
+        "group": "aespa",
+        "name": "GISELLE",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827GISELLE (4).jpg"
+    },
+    {
+        "id": "card_020036",
+        "group": "aespa",
+        "name": "NINGNING",
+        "date": "Rich Man",
+        "rarity": "normal",
+        "storagePath": "images/aespa/20250827NINGNING (4).jpg"
+    },
     {
         "id": "card_030001",
         "group": "IVE",
@@ -985,5 +1150,133 @@
         "date": "SECRET",
         "rarity": "normal",
         "storagePath": "images/ive/20250816LEESEO2.jpg"
+    },
+    {
+        "id": "card_040001",
+        "group": "StrayKids",
+        "name": "BangChan",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810BangChan1.jpg"
+    },
+    {
+        "id": "card_040002",
+        "group": "StrayKids",
+        "name": "Leeknow",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810Leeknow1.jpg"
+    },
+    {
+        "id": "card_040003",
+        "group": "StrayKids",
+        "name": "Changbin",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810Changbin1.jpg"
+    },
+    {
+        "id": "card_040004",
+        "group": "StrayKids",
+        "name": "Hyunjin",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810Hyunjin1.jpg"
+    },
+    {
+        "id": "card_040005",
+        "group": "StrayKids",
+        "name": "HAN",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810HAN1.jpg"
+    },
+    {
+        "id": "card_040006",
+        "group": "StrayKids",
+        "name": "Felix",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810Felix1.jpg"
+    },
+    {
+        "id": "card_040007",
+        "group": "StrayKids",
+        "name": "Seugmin",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810Seungmin1.jpg"
+    },
+    {
+        "id": "card_040008",
+        "group": "StrayKids",
+        "name": "I_N",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810I_N1.jpg"
+    },
+    {
+        "id": "card_040009",
+        "group": "StrayKids",
+        "name": "BangChan",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810BangChan2.jpg"
+    },
+    {
+        "id": "card_040010",
+        "group": "StrayKids",
+        "name": "Leeknow",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810Leeknow2.jpg"
+    },
+    {
+        "id": "card_040011",
+        "group": "StrayKids",
+        "name": "Changbin",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810Changbin2.jpg"
+    },
+    {
+        "id": "card_040012",
+        "group": "StrayKids",
+        "name": "Hyunjin",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810Hyunjin2.jpg"
+    },
+    {
+        "id": "card_040013",
+        "group": "StrayKids",
+        "name": "HAN",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810HAN2.jpg"
+    },
+    {
+        "id": "card_040014",
+        "group": "StrayKids",
+        "name": "Felix",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810Felix2.jpg"
+    },
+    {
+        "id": "card_040015",
+        "group": "StrayKids",
+        "name": "Seugmin",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810Seungmin2.jpg"
+    },
+    {
+        "id": "card_040016",
+        "group": "StrayKids",
+        "name": "I_N",
+        "date": "KARMA",
+        "rarity": "normal",
+        "storagePath": "images/straykids/20250810I_N2.jpg"
     }
 ]

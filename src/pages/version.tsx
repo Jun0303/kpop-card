@@ -74,6 +74,17 @@ export default function VersionPage() {
         <br />
         2.「IVE」のトレカ追加
       </p>
+                  <br/>
+            <h2 className="text-3xl">Ver2.4</h2>
+      <p>2025/08/21</p>
+      <p>
+        Kep1er58枚、txt38枚、aespa36枚、IVE12枚、StrayKids16枚に更新。
+        <br />
+        <br />
+        1.「StrayKids」のトレカ追加
+        <br />
+        2.背景色と文字色の変更
+      </p>
     </div>
   );
 }
