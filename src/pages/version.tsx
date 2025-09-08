@@ -96,6 +96,13 @@ export default function VersionPage() {
         <br />
         2.カード一覧ページのレイアウト変更
       </p>
+                              <br/>
+            <h2 className="text-3xl">Ver2.6</h2>
+      <p>2025/09/09</p>
+      <p>
+        <br />
+        1.背景色の変更
+      </p>
     </div>
   );
 }
