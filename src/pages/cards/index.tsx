@@ -62,12 +62,12 @@ export default function CardListPage() {
       <h1 className="text-2xl font-bold mb-4">カード一覧</h1>
 
       {/* アーティスト選択ボタン */}
-      <div className="flex gap-4 mb-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-6">
         {groups.map((group) => (
           <button
             key={group}
             onClick={() => setSelectedGroup(group)}
-            className={`px-4 py-2 rounded ${
+            className={`px-4 py-2 rounded w-full ${
               selectedGroup === group
                 ? "bg-blue-600 text-white"
                 : "bg-gray-300 text-black"
@@ -83,7 +83,7 @@ export default function CardListPage() {
 
       {/* カード一覧 */}
       {!loading && selectedGroup && (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
           {filteredCards.map((card) => (
             <div key={card.id} className="border rounded shadow">
               {cardImages[card.id] ? (

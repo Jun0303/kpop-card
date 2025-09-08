@@ -76,7 +76,7 @@ export default function VersionPage() {
       </p>
                   <br/>
             <h2 className="text-3xl">Ver2.4</h2>
-      <p>2025/08/21</p>
+      <p>2025/08/27</p>
       <p>
         Kep1er58枚、txt38枚、aespa36枚、IVE12枚、StrayKids16枚に更新。
         <br />
@@ -84,6 +84,17 @@ export default function VersionPage() {
         1.「StrayKids」のトレカ追加
         <br />
         2.背景色と文字色の変更
+      </p>
+                        <br/>
+            <h2 className="text-3xl">Ver2.5</h2>
+      <p>2025/09/09</p>
+      <p>
+        Kep1er58枚、txt48枚、aespa36枚、IVE12枚、StrayKids16枚に更新。
+        <br />
+        <br />
+        1.「txt」のトレカ追加
+        <br />
+        2.カード一覧ページのレイアウト変更
       </p>
     </div>
   );

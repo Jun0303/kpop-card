@@ -768,6 +768,86 @@
         "storagePath": "images/txt/20250827HUENINGKAI.jpg"
     },
     {
+        "id": "card_010039",
+        "group": "txt",
+        "name": "SOOBIN",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250903SOOBIN1.jpg"
+    },
+    {
+        "id": "card_010040",
+        "group": "txt",
+        "name": "SOOBIN",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250903SOOBIN2.jpg"
+    },
+    {
+        "id": "card_010041",
+        "group": "txt",
+        "name": "YEONJUN",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250903YEONJUN1.jpg"
+    },
+    {
+        "id": "card_010042",
+        "group": "txt",
+        "name": "YEONJUN",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250903YEONJUN2.jpg"
+    },
+    {
+        "id": "card_010043",
+        "group": "txt",
+        "name": "BEOMGYU",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250903BEOMGYU1.jpg"
+    },
+    {
+        "id": "card_010044",
+        "group": "txt",
+        "name": "BEOMGYU",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250903BEOMGYU2.jpg"
+    },
+    {
+        "id": "card_010045",
+        "group": "txt",
+        "name": "TAEHYUN",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250903TAEHYUN1.jpg"
+    },
+    {
+        "id": "card_010046",
+        "group": "txt",
+        "name": "TAEHYUN",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250903TAEHYUN2.jpg"
+    },
+    {
+        "id": "card_010047",
+        "group": "txt",
+        "name": "HUENINGKAI",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250903HUENINGKAI1.jpg"
+    },
+    {
+        "id": "card_010048",
+        "group": "txt",
+        "name": "HUENINGKAI",
+        "date": "Starkissed",
+        "rarity": "normal",
+        "storagePath": "images/txt/20250903HUENINGKAI2.jpg"
+    },
+    {
         "id": "card_020001",
         "group": "aespa",
         "name": "KARINA",
