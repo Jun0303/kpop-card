@@ -50,8 +50,8 @@ export default function VersionPage() {
         <br />
         2.「Kep1er」の画像追加
       </p>
-      <br/>
-            <h2 className="text-3xl">Ver2.2</h2>
+      <br />
+      <h2 className="text-3xl">Ver2.2</h2>
       <p>2025/08/19</p>
       <p>
         Kep1er58枚、txt33枚、aespa20枚に更新。
@@ -63,8 +63,8 @@ export default function VersionPage() {
         <br />
         3.「Kep1er」の画像追加
       </p>
-            <br/>
-            <h2 className="text-3xl">Ver2.3</h2>
+      <br />
+      <h2 className="text-3xl">Ver2.3</h2>
       <p>2025/08/21</p>
       <p>
         Kep1er58枚、txt33枚、aespa20枚、IVE12枚に更新。
@@ -74,8 +74,8 @@ export default function VersionPage() {
         <br />
         2.「IVE」のトレカ追加
       </p>
-                  <br/>
-            <h2 className="text-3xl">Ver2.4</h2>
+      <br />
+      <h2 className="text-3xl">Ver2.4</h2>
       <p>2025/08/27</p>
       <p>
         Kep1er58枚、txt38枚、aespa36枚、IVE12枚、StrayKids16枚に更新。
@@ -85,8 +85,8 @@ export default function VersionPage() {
         <br />
         2.背景色と文字色の変更
       </p>
-                        <br/>
-            <h2 className="text-3xl">Ver2.5</h2>
+      <br />
+      <h2 className="text-3xl">Ver2.5</h2>
       <p>2025/09/09</p>
       <p>
         Kep1er58枚、txt48枚、aespa36枚、IVE12枚、StrayKids16枚に更新。
@@ -96,12 +96,20 @@ export default function VersionPage() {
         <br />
         2.カード一覧ページのレイアウト変更
       </p>
-                              <br/>
-            <h2 className="text-3xl">Ver2.6</h2>
+      <br />
+      <h2 className="text-3xl">Ver2.6</h2>
       <p>2025/09/09</p>
       <p>
         <br />
         1.背景色の変更
+      </p>
+
+      <br />
+      <h2 className="text-3xl">Ver2.7</h2>
+      <p>2025/09/25</p>
+      <p>
+        <br />
+        1.「izna」のトレカ追加
       </p>
     </div>
   );

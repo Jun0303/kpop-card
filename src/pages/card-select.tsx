@@ -9,6 +9,7 @@ const packImages: Record<string, string> = {
   aespa: "/images/pack/aespa-pack.png",
   IVE: "/images/pack/ive-pack.png",
   StrayKids: "/images/pack/straykids-pack.png",
+  izna: "/images/pack/izna-pack.png",
   // 他のアーティストもここに追加可能
 };
 

@@ -1358,5 +1358,54 @@
         "date": "KARMA",
         "rarity": "normal",
         "storagePath": "images/straykids/20250810I_N2.jpg"
+    },
+    {
+        "id": "card_050001",
+        "group": "izna",
+        "name": "MAI",
+        "date": "Not Just Pretty",
+        "rarity": "normal",
+        "storagePath": "images/izna/20250909MAI.jpg"
+    },
+    {
+        "id": "card_050002",
+        "group": "izna",
+        "name": "JEEMIN",
+        "date": "Not Just Pretty",
+        "rarity": "normal",
+        "storagePath": "images/izna/20250909JEEMIN.jpg"
+    },
+    {
+        "id": "card_050003",
+        "group": "izna",
+        "name": "KOKO",
+        "date": "Not Just Pretty",
+        "rarity": "normal",
+        "storagePath": "images/izna/20250909KOKO.jpg"
+    },
+    {
+        "id": "card_050004",
+        "group": "izna",
+        "name": "SARANG",
+        "date": "Not Just Pretty",
+        "rarity": "normal",
+        "storagePath": "images/izna/20250909SARANG.jpg"
+    },
+    {
+        "id": "card_050005",
+        "group": "izna",
+        "name": "JUNGEUN",
+        "date": "Not Just Pretty",
+        "rarity": "normal",
+        "storagePath": "images/izna/20250909JUNGEUN.jpg"
+    },
+    {
+        "id": "card_050006",
+        "group": "izna",
+        "name": "SAEBI",
+        "date": "Not Just Pretty",
+        "rarity": "normal",
+        "storagePath": "images/izna/20250909SAEBI.jpg"
     }
+
 ]
